@@ -209,10 +209,10 @@
 
     .deal-details {
         right: 25px;
-        top: 180px;
+        top: 135px;
         padding: 10px;
         width: 260px;
-        height: 290px;
+        height: 330px;
 
     }
 
@@ -230,7 +230,7 @@
 
     #deal-left {
         left: 25px;
-        top: 180px;
+        top: 135px;
     }
 
     .deal-left-content {
