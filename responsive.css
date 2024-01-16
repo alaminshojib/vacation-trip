@@ -1,7 +1,4 @@
-@media screen and (max-width:992px){
-
-   
-
+@media screen and (max-width:992px) {
 
     
 }
@@ -12,17 +9,275 @@
 
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
 
-   
-body{
 
-padding: 0 30px;
+    body {
 
-}
+        padding: 0 10px;
+        width: 375px;
+        margin: auto;
+    }
 
-.nav-container{
-    
-}
-    
+
+    .nav-container .nav-title-style img {
+        width: 28.724px;
+        height: 33.516px;
+    }
+
+    .nav-container .nav-title-style .nav-title {
+        font-size: 21.543px;
+
+    }
+
+    .navlist-style {
+
+        width: 28.724px;
+        height: 33.516px;
+
+    }
+
+    .navlist {
+        display: none;
+
+    }
+
+    .banner-content {
+        padding-top: 32px;
+
+    }
+
+    .banner-title {
+        font-size: 22px;
+    }
+
+    .banner-descript {
+        font-size: 14px;
+
+    }
+
+    .banner-option {
+        width: 287px;
+        padding: 16px;
+        gap: 16px;
+        margin: 25px auto;
+    }
+
+    .banner-option form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    #text,
+    #select-type,
+    #when,
+    .find-now {
+        width: 255px;
+        height: 52px;
+        margin-left: 8px;
+    }
+
+    .popular-tour-section {
+        flex-direction: column;
+        text-align: left;
+        max-width: 335px;
+        margin: 20px auto;
+    }
+
+    .popular-content h1 {
+        font-size: 20px;
+        width: 178px;
+        padding-bottom: 16px;
+    }
+
+    .popular-content p,
+    ul {
+        /* width: 335px; */
+        font-size: 14px;
+
+    }
+
+    .popular-content ul {
+        padding-left: 20px;
+        padding: 20px;
+    }
+
+    .popular-img>img {
+        width: 335px;
+
+    }
+
+
+
+    .destination {
+        width: 335px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .destination>h1 {
+        font-size: 20px;
+    }
+
+    .destination>p {
+        font-size: 14px;
+    }
+
+    .grid-container {
+        display: block;
+    }
+
+    .grid-container .iteam-style {
+        width: 335px;
+        height: 176px;
+        margin: 16px auto;
+        gap: 20px;
+        font-size: 20px;
+    }
+
+    .grid-container .text-align {
+        padding: 70px;
+    }
+
+
+    .choose-section {
+        margin: 16px auto;
+        width: 375px;
+    }
+
+    .choose-section h3 {
+        font-size: 20px;
+    }
+
+    .choose-section p {
+        width: 309px;
+        font-size: 14px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .service-content {
+        display: flex;
+        flex-direction: column;
+        width: 335px;
+        margin: auto;
+
+
+    }
+
+    .service-content .content {
+        padding: 10px 20px;
+    }
+
+
+
+    .perfect-place {
+        width: 335px;
+        flex-direction: column;
+        text-align: left;
+        margin: 0 auto;
+
+    }
+
+    .place-content h4 {
+        width: 248px;
+        font-size: 20px;
+
+    }
+
+    .place-content p {
+        color: #5A5A5D;
+        font-size: 14px;
+        margin: 16px auto;
+    }
+
+    .place-content ul {
+        font-size: 14px;
+        padding-left: 10px;
+        margin-bottom: 24px;
+    }
+
+    .place-content {
+        margin: 24px auto;
+
+    }
+
+    .place-iframe iframe {
+        width: 335px;
+        height: 200px;
+    }
+
+    .newsletter-content {
+        flex-direction: column;
+
+    }
+
+    .news-content {
+        width: 335px;
+        height: 353px;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    .newsletter-content .news-content h2 {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .newsletter-content .news-content p {
+        font-size: 14px;
+        width: 270px;
+        padding-left: 20px;
+    }
+
+    .newsletter-content .news-content form>input {
+        display: block;
+        width: 288px;
+        height: 52px;
+        margin: 16px auto;
+        text-align: left;
+    }
+
+    .newsletter-content .last-img {
+        width: 335px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: -50px;
+    }
+
+    .newsletter-content .last-img .offer {
+        width: 214px;
+        font-size: 10px;
+        bottom: 36px;
+        right: 0;
+    }
+
+    .footer-section {
+        width: 375px;
+        height: 309px;
+        margin-top: 16px;
+        margin: 16px auto;
+
+    }
+
+    .foot-container {
+        width: 335px;
+
+    }
+
+    .foot-container .foot-content p {
+        width: 287px;
+    }
+
+
+    .foot-container .reserved-style {
+        padding-bottom: 16px;
+
+    }
+
 }
