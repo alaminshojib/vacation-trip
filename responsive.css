@@ -246,7 +246,8 @@
         width: 335px;
         flex-direction: column;
         text-align: left;
-        margin: 0 auto;
+        margin: 10px auto;
+        display: grid;
 
     }
 
@@ -277,7 +278,20 @@
         width: 335px;
         height: 200px;
     }
+    .place-frame img{
+        width: 335px;
+        height: 200px;
+    }
+    #frame-img{
+        order: 2;
+    }
 
+    .place-content img{
+        width: 100px;
+      
+        
+    }
+   
     .newsletter-content {
         flex-direction: column;
 
@@ -325,15 +339,14 @@
 
     .footer-section {
         width: 375px;
-        height: 309px;
         margin-top: 16px;
         margin: 16px auto;
 
     }
-
+   
     .foot-container {
         width: 335px;
-
+    
     }
 
     .foot-container .foot-content p {

@@ -512,13 +512,15 @@ ul {
     margin: 40px auto;
     justify-content: space-between;
 }
+.place-frame img{
+    border-radius: 16px;
+}
 
 .place-content {
     padding-left: 20px;
 }
 
 .place-content h4 {
-    width: 448px;
     color: #131318;
     font-size: 40px;
     font-weight: 800;
@@ -531,6 +533,15 @@ ul {
     font-size: 16px;
     font-weight: 400;
     margin: 32px auto;
+}
+.place-content img{
+    width: 150px;
+    height: auto;
+    
+}
+.place-content div{
+    width: 150px;
+    margin: 0 auto;
 }
 
 .place-content ul {
@@ -635,7 +646,6 @@ ul {
     background: rgba(19, 19, 24, 0.05);
     margin-top: 30px;
     align-items: center;
-
 }
 
 .foot-container {
@@ -672,6 +682,15 @@ ul {
     justify-content: center;
     gap: 20px;
 }
+
+.foot-title-style img{
+    width: 20px;
+    height: 26px;
+}
+.foot-title-style h1{
+    font-size: 20px;
+}
+
 
 .foot-container .icons .fa-brands {
     font-size: 25px;
